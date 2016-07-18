@@ -1,0 +1,85 @@
+body {
+  background-color: #F3FFBD;
+  margin: 0;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+  font-family: helvetica;
+  color: #F3FFBD;
+}
+
+p.title {
+  font-size: 30px;
+  letter-spacing: 3px;
+  line-height: 55px;
+}
+
+p.quote {
+  font-size: 20px;
+  text-align: left;
+  line-height: 35px;
+  letter-spacing: 5px;  
+}
+
+p.author {
+  font-weight: bold;
+  text-indent: 20%;
+  letter-spacing: 3px;
+  font-style: italic;
+  text-align: left;
+}
+
+p.next{
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.main-container {
+  position: absolute;
+  top: 0;
+  left: 17.5%;
+  width: 65%;
+  height: 100%;
+  margin: auto auto;
+}
+
+.inside-container {
+  position: relative;
+  width: 60%;
+  margin: 30px auto;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 10px 10px 5px gray;
+  text-align: center;
+}
+
+.header {
+  background-color: #247BA0; 
+}
+
+.quote-output {
+  background-color: #70B1C3;
+  min-height: 50%;
+  padding: 50px 25px;
+  //border: 3px solid red;
+}
+
+.tweet {
+  position: absolute;
+  //border: 3px solid red;
+  padding: 10px;
+  bottom: 0;
+  right: 0; 
+}
+
+.button{
+  background-color: #FF1654;
+  width: 20%
+}
+
+
+
+
+
